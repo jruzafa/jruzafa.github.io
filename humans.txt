@@ -1,0 +1,14 @@
+/* TEAM */
+
+Webmaster & web developer: Jose Ruzafa
+Site: http://www.joseruzafa.me/
+Email: jose.ruzafa[at]gmail.com
+Twitter: @jruzafa
+Location: Alicante, SPAIN
+
+/* SITE */
+
+Last update: 2012/05/05
+Standards: HTML5, CSS3
+Components: Jquery, Cufon
+Software: Codeigniter
