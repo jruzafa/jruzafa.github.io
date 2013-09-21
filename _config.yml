@@ -1,3 +1,4 @@
 name: Jose Ruzafa
 pygments: true
 permalink: /blog/:categories/:title
+production_url: http://joseruzafa.com
