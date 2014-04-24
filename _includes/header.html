@@ -1,36 +1,35 @@
 <header>
-        <h1><a href="/">{{ site.name }}</a></h1>
+  <h1><a href="/">{{ site.name }}</a></h1>
 
-        <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
-        <p class="view"><a href="/magento.html">Magento Modules<small>Open Source magento modules</small></a></p>
-        <!--      <p class="view"><a href="/posts.html">Posts<small>Code that Might be Useful to You</small></a></p>
-        <p class="view"><a href="/skills.html">Skills<small>Programmer skills</small></a></p> -->
+  <p class="view"><a href="/">Home</a></p>
+  <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
+  <p class="view"><a href="/magento.html">Magento Modules<small>Open Source magento modules</small></a></p>
+  <p class="view"><a  href="http://blog.joseruzafa.com" title="Blog">Posts</a></p>
 
-        {% if page.repository_url %}
-          <h3>Project Info</h3>
-          <ul>
-            {% if page.zip_url %}
-              <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
-            {% endif %}
-            {% if page.tar_url %}
-              <li><a href="{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-            {% endif %}
-            {% if page.gem_url %}
-              <li><a href="{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
-            {% endif %}
-            {% if page.issue_url %}
-              <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
-            {% endif %}
-            {% if page.repository_url %}
-              <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
-            {% endif %}
-          </ul>
-        {% endif %}
+  {% if page.repository_url %}
+    <h3>Project Info</h3>
+    <ul>
+      {% if page.zip_url %}
+        <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
+      {% endif %}
+      {% if page.tar_url %}
+        <li><a href="{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+      {% endif %}
+      {% if page.gem_url %}
+        <li><a href="{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
+      {% endif %}
+      {% if page.issue_url %}
+        <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
+      {% endif %}
+      {% if page.repository_url %}
+        <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
 
-        <h3>Follow Me On</h3>
-        <p class="view"><a href="https://github.com/jruzafa" target="tab">GitHub<small>If coding is your thing</small></a></li>
-        <p class="view"><a href="http://stackoverflow.com/users/944571/jruzafa" target="tab">Stackoverflow<small>Answers for pogramming</small></a></li>
-        <p class="view"><a href="https://twitter.com/jruzafa" target="tab">Twitter<small>If you tweet</small></a></li>
-        <p class="view"><a href="https://coderwall.com/jruzafa" target="tab">Coderwall<small>Profile</small></a></li>
-        <p class="view"><a href="mailto:jose.ruzafa@gmail.com" target="tab">jose.ruzafa@gmail.com<small>E-mail</small></a></li>
-      </header>
+  <h3>Contact</h3>
+  <p class="view"><a href="https://github.com/jruzafa" target="tab">GitHub</a></li>
+  <p class="view"><a href="http://stackoverflow.com/users/944571/jruzafa" target="tab">Stackoverflow</a></li>
+  <p class="view"><a href="https://twitter.com/jruzafa" target="tab">Twitter</a></li>
+  <p class="view"><a href="mailto:jose.ruzafa@gmail.com" target="tab">jose.ruzafa@gmail.com</a></li>
+</header>
